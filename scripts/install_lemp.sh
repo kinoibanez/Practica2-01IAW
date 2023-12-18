@@ -14,6 +14,10 @@ apt update
 
 #apt upgrade -y
 
+
+#Instalamos mysql
+
+apt install mysql-server -y
 #Instalamos el servidor web (NGINX):
 
 apt install nginx -y 

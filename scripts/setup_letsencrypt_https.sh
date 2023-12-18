@@ -35,7 +35,7 @@ sudo ln -sf /snap/bin/certbot /usr/bin/certbot
 #sudo certbot --apache
 
 #Ejecutamos el comando certbot.
-certbot --apache -m $CERTIFICATE_EMAIL --agree-tos --no-eff-email -d $CERTIFICATE_DOMAIN --non-interactive
+certbot --nginx -m $CERTIFICATE_EMAIL --agree-tos --no-eff-email -d $CERTIFICATE_DOMAIN --non-interactive
 
 
 #Con el siguiente comando podemos comprobar que hay un temporizador en el sistema encargado de realizar la renovación de los certificados de manera automática.
